@@ -1,0 +1,112 @@
+{
+    "productsSale":[
+
+        {	"id":"1",
+            "sale":"32",
+            "image":"../images/limon.svg",
+            "name":"Limon con semilla",
+            "newPrice":"26.82",
+            "oldPrice":"39.9"
+        },
+        {	"id":"2",
+            "sale":"32",
+            "image":"../images/tomate.svg",
+            "name":"Tomate",
+            "newPrice":"21.79",
+            "oldPrice":"32.9"
+        },
+        {	"id":"3",
+            "sale":"18",
+            "image":"../images/aguacate.svg",
+            "name":"Aguacate",
+            "newPrice":"56.8",
+            "oldPrice":"69.9"
+        },
+        {	"id":"4",
+            "sale":"13",
+            "image":"../images/nopal.svg",
+            "name":"Nopal Limpio",
+            "newPrice":"25.8",
+            "oldPrice":"29.9"
+        },
+        {	"id":"5",
+            "sale":"8",
+            "image":"../images/tomateVerde.svg",
+            "name":"Tomate verde sin cascara",
+            "newPrice":"22.89",
+            "oldPrice":"29.9"
+        }
+        ,
+        {	"id":"5",
+            "sale":"8",
+            "image":"../images/tomateVerde.svg",
+            "name":"Tomate verde sin cascara",
+            "newPrice":"22.89",
+            "oldPrice":"29.9"
+        }
+        ,
+        {	"id":"5",
+            "sale":"8",
+            "image":"../images/tomateVerde.svg",
+            "name":"Tomate verde sin cascara",
+            "newPrice":"22.89",
+            "oldPrice":"29.9"
+        }
+    ],
+
+    "productsPopular":[
+    {	"id":"6",
+        "image":"../images/pechuga.svg",
+        "name":"San Rafael pechuga de pavo",
+        "price":"62.5",
+        "priceWeight":"0.25",
+        "weight":"250"
+
+    },
+    {	"id":"7",
+        "image":"../images/pan.svg",
+        "name":"Bimbo Pan Grande",
+        "price":"38.9",
+        "priceWeight":"0.6",
+        "weight":"680"
+    },
+    {	"id":"8",
+        "image":"../images/mayonesa.svg",
+        "name":"Mc Cormick Mayonesa",
+        "price":"48.5",
+        "priceWeight":"0.1",
+        "weight":"507"
+    },
+    {	"id":"9",
+        "image":"../images/colgate.svg",
+        "name":"Colgate Pasta Dental Triple Familiar 2 U",
+        "price":"35.5",
+        "priceWeight":"0.28",
+        "weight":"125"
+    },
+    {	"id":"10",
+        "image":"../images/huevos.svg",
+        "name":"Huevos San Juan",
+        "price":"37.5",
+        "priceWeight":"2.08",
+        "weight":"18"
+    }
+    ,
+    {	"id":"10",
+        "image":"../images/huevos.svg",
+        "name":"Huevos San Juan",
+        "price":"37.5",
+        "priceWeight":"2.08",
+        "weight":"18"
+    }
+    ,
+    {	"id":"10",
+        "image":"../images/huevos.svg",
+        "name":"Huevos San Juan",
+        "price":"37.5",
+        "priceWeight":"2.08",
+        "weight":"18"
+    }
+    ]
+    }
+    

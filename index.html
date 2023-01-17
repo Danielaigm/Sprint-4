@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4790b4231b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Sprint 4</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <img src="./images/Tiendita.svg" alt="Logo">
+
+        <div class="header_left">
+            <div class="header_left-location">
+                <i class="fa-solid fa-location-dot location-style"></i>
+                <p class="location-text">
+                    México City Marriott Reforma Hotel...
+                </p>
+            </div>
+
+            <div class="line"></div>
+
+
+            <div class="cart-shopping">
+                <i class="fa-solid fa-cart-shopping car-style"></i>
+                <span>5</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <section class="section banner">
+                <img src="./images/banner.svg" alt="" class="banner__img" />
+                <p class="banner__text">
+                    ¡Adquiere todos tus productos favoritos al mejor precio!
+                </p>
+            </section>
+
+            <section class="section style-section ">
+                <h2 class="section-title">Ofertas</h2>
+                <div class="container-products_cardSale">
+
+                    
+                </div>
+                
+
+            </section>
+
+            <section class="section style-section ">
+                <h2 class="section-title">Los más populares</h2>
+                <div class="container-products_cardPopular">
+
+                    
+                </div>
+            </section>
+
+            <section class="modal-location">
+                <div class="modal-location__container">
+                    <div class="modal-location_container-close">
+
+                        <i class="fa-solid fa-circle-xmark modal-location__close"></i>
+                    </div>
+                    
+                    <h2 for="location" class="modal-location__title">¿Dónde quieres recibir tu pedido?</h2>
+                    <p class="modal-location__text">Para poder ofrecerte productos dentro de tu área, necesitamos tu dirección</p>
+                    <div class="contenedor">
+                        <form action="#" class="modal-location_form">
+
+                            <div class="modal-location_value select-box"  id="location">
+
+                                <div class="select" id="select">
+
+                                    <div class="contenido-select">
+                                        <i class="fa-solid fa-location-dot style-form"></i>
+                                        <span class="contenido-select__title">Selecciona tu ubicación</span>
+                                    </div>
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </div> 
+
+                                <div class="options" id="options">
+                                    <a href="#" class="option">
+                                        <div class="contenido-option">
+                                            <i class="fa-solid fa-location-dot style-form"></i>
+                                            <span class="option_title">Medellín, Antioquia</span>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="option">
+                                        <div class="contenido-option">
+                                            <i class="fa-solid fa-location-dot style-form"></i>
+                                            <span class="option_title">Sabaneta, Antioquia</span>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="option">
+                                        <div class="contenido-option">
+                                            <i class="fa-solid fa-location-dot style-form"></i>
+                                            <span class="option_title">Bello, Antioquia</span>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="option">
+                                        <div class="contenido-option">
+                                            <i class="fa-solid fa-location-dot style-form"></i>
+                                            <span class="option_title">Caldas, Antioquia</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <input type="hidden" name ="location" id="inputSelect" value="">
+                            <button class="products_card-button" id="listo">Listo</button>
+                        </form>
+                    </div>
+                        
+                        
+                        
+                </div>
+
+            </section>
+
+            <section class="modal-carShop">
+                <div class="modal-carShop__container">
+                    <div class="modal-carShop_header">
+                        <p class="modal-carShop_header__text">Entregar en: <span class="modal-carShop_header__location"> Mexico City Marriot Reforma Hotel...</span> </p>
+                        <i class="fa-solid fa-circle-xmark modal-carShop__close"></i>
+
+                    </div>
+
+                    <div class="modal-carShop_products">
+                        <!-- <article class="modal-carShop_product">
+                            
+                            <div class="info_product">
+                                <div class="info_product__container">
+                                    <img src="./images/aguacate.svg" alt="" class="img-product">
+                                </div>
+                                <div class="info_product__container">
+                                    <h4 class="info_product__container-title"> Aguacate Hass</h4>
+                                    <span class="info_product__container-price">$17.48</span>
+                                </div>
+                            </div>
+
+                            <div class="cant-products">
+                                <i class="fa-solid fa-minus"></i>
+                                <span> 250 g</span>
+                                <i class="fa-solid fa-plus"></i>
+
+                            </div>
+                        </article>-->
+
+                        <div class="modal-carShop_products-clear">
+                            <img src="./images/Family Values Shopping.svg" alt="">
+                            <p>Tu canasta está vacía</p>
+                            <button class="modal-carShop_products-clear-btn">Agregar Productos</button>
+
+                        </div>
+                    </div>
+
+
+                    <div class="modal-carShop_buttons">
+                        <button class="btn-clear">Vaciar Canasta</button>
+                        <div class="btn-rigth-container">
+                            <div class="products-cant">
+                                0
+                            </div>
+                            <button class="btn-pay">Ir a pagar</button>
+                            <span class="total-pay">$0</span>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+        </article>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>
